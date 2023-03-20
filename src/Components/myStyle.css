@@ -1,0 +1,169 @@
+/* *{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: #282D35;
+    
+}
+.primary{
+    background-color: #21222A;
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  display: block;
+}
+small{
+    padding: 20px;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex; 
+}
+.nav-items > li{
+    padding: 10px;
+    font-weight: 400;
+}
+.nav{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    background-color: #21222A;
+    height: 40px;
+    padding: 30px 25px;
+    color: aliceblue;
+}
+
+nav>h4{
+    margin: 0;
+    justify-content: end;
+}
+.logo{
+    width: 158px;
+    height: 29px;
+    top: 31px;
+    left: 26px;
+}
+h1{
+    margin: 0;
+    font-size: 39px;
+}
+.main {
+    padding: 27px 20px; 
+    background-repeat: no-repeat;
+    background-position: right 75%;
+    color: white;
+    
+} 
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+.main--facts > li::marker{
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+  */
+  *{
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+   
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+}
+.airbnb-logo{
+    max-width:250px;
+}
+.photo{
+padding-top: 20px;
+max-width: 400px; 
+align-self: center;
+margin-top: 15px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+h1,p{
+    margin-bottom: 8px;
+    padding-left: 4px;  
+}
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;        
+    display: flex;          
+    flex-direction: column;
+    position: relative;
+}
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 10px;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section{
+    padding: 10px;
+}
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    height: 250px;
+}
+.card--stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card--price {
+    margin-top: 5px;
+}
+.star{
+    width: 15px;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+@media(max-width:760px){
+    .photo{
+        max-width: 700px;
+    }
+}
